@@ -7,9 +7,10 @@
   },
   "name": "projeto-apicapital",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "esbuild": "^0.28.2",
+    "express": "^5.3.0",
     "undici-types": "^8.9.0"
   },
   "scripts": {
@@ -20,5 +21,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "API para consultar capitais dos estados brasileiros"
 }
